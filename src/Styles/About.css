@@ -1,0 +1,83 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .about-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .about-header h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .about-header p {
+    color: #666;
+    font-size: 1.1em;
+    margin-top: 10px;
+  }
+  
+  .about-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .get-to-know {
+    width: 60%;
+  }
+  
+  .get-to-know h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .get-to-know p {
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .get-to-know a {
+    color: #0073b1; /* LinkedIn color */
+    text-decoration: none;
+  }
+  
+  .get-to-know a:hover {
+    text-decoration: underline;
+  }
+  
+  .skills-section {
+    width: 35%;
+    text-align: left;
+  }
+  
+  .skills-section h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .skill {
+    padding: 10px 15px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    min-width: 100px;
+  }
