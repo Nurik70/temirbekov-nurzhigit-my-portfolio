@@ -4,7 +4,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #007bff;
+    background-color: #28425c;
     padding: 5px 30px;
     color: white;
 }
@@ -40,7 +40,7 @@ h1 {
 }
 
 .nav-links a:hover {
-    color: #ffd700; /* Золотой цвет при наведении */
+    color: #429cfcbc; /* Золотой цвет при наведении */
 }
 
 .nav-links a.active {
